@@ -3,10 +3,10 @@
 /* Apply Roboto Mono font to the entire body */
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: ##ddd;
+    background-color: #ddd;
     color: #333;
     margin: 0;
-    padding: 20px;
+    padding: 150px;
 }
 
 header {
@@ -14,8 +14,26 @@ header {
     margin-bottom: 30px;
 }
 
+#index {
+    width: 60%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#index hr {
+    width: 50%;
+    margin: 10px auto;
+    border: 0.5px solid #333;
+}
+
 h1 {
     font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -2px;
     margin-bottom: 20px;
 }
 
@@ -33,7 +51,6 @@ blockquote {
     font-size: 25px;
     color: #333;
     margin: 20px 40px;
-    border-left: 5px solid #ccc;
     padding-left: 15px;
 }
 
@@ -42,12 +59,14 @@ blockquote {
 }
 
 p {
+    font-weight: 300;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
 em {
     color: #333;
+    font-weight: 500;
 }
 
 .highlight {
@@ -56,11 +75,23 @@ em {
 
 section {
     padding: 10px;
-    border-radius: 8px;
     margin-bottom: 20px;
 }
 
 #response {
     padding-top: 20px;
-    border-top: 2px solid #ccc;
+}
+
+.conclusion {
+    background-color: rgb(254, 184, 50);
+    border: 1px solid #333;
+    border-radius: 10px;      
+    width: 70%;              
+    margin: 40px auto;           
+    padding: 40px;           
+ 
+}
+
+.conclusion div {
+    margin-bottom: 20px;
 }
