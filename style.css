@@ -181,9 +181,9 @@ mark {
 }
 
 blockquote {
-    font-size: 25px;
+    font-size: 28px;
     color: #333;
-    line-height: 40px;
+    line-height: 45px;
 }
 
 .first-quote, blockquote {
@@ -350,4 +350,18 @@ mark {
 
 .middle p {
     margin: auto;
+}
+
+/* Response Styling */
+#response {
+    background-color: #feb832;  
+    width: 70%;              
+    margin: auto;           
+    padding: 40px;
+}
+
+.close {
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: right;
 }
