@@ -95,6 +95,7 @@ p {
     font-weight: 350;
     line-height: 1.6;
     padding-bottom: 20px;
+    font-size: 15px;
 
 
 }
@@ -167,7 +168,7 @@ mark {
 
 .right-align p {
     margin: auto;
-    margin-left: 400px;
+
 }
 
 .right-align a {
