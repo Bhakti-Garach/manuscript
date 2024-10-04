@@ -355,14 +355,59 @@ mark {
 
 /* Response Styling */
 #response {
-    background-color: #feb832;  
+    background-color: #B0BAC2;  
     width: 70%;              
     margin: auto;           
     padding: 40px;
+    border-radius: 7px; 
 }
 
-.close {
+/* .close {
     font-weight: 500;
     text-decoration: underline;
     text-align: right;
+} */
+
+/* Definitions Section Styling */
+#definitions-section {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 22%;
+    height: 100%;
+    background-color: #feb832; ;
+    /* box-shadow: -2px 0 5px rgba(165, 165, 165, 0.418); */
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 10;
+    transition: right 0.5s ease;
+}
+
+:target#definitions-section {
+    right: 0;
+}
+
+.definitions-content {
+    padding: 10px;
+}
+
+.definitions-content p {
+    margin: auto;
+    max-width: 100%;
+    font-weight: 350;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.definitions-content h3 {
+    margin-top: 30px;
+}
+
+#close-definitions {
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+    text-align: right;
+    text-decoration: underline;
 }
