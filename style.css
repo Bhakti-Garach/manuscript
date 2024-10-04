@@ -56,7 +56,7 @@ em {
 }
 
 article {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -87,7 +87,7 @@ article {
 h2 {
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 p {
@@ -126,7 +126,7 @@ p {
 .definition {
     display: block;
     margin: auto;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     align-content: center;
 }
 
@@ -150,7 +150,8 @@ p {
     width: 50%;              
     margin: auto;           
     padding: 30px;
-    text-wrap: balance;          
+    text-wrap: balance; 
+    margin-bottom: 30px;         
 }
 
 .first-box p {
@@ -212,7 +213,7 @@ blockquote {
     padding-top: 20px;
 }
 
-.conclusion {
+/* .conclusion {
     background-color: rgb(254, 184, 50);
     border: 1px solid #333;
     border-radius: 10px;      
@@ -224,7 +225,7 @@ blockquote {
 
 .conclusion div {
     margin-bottom: 20px;
-}
+} */
 
 /* Menu Header Styling */
 .menu-header {
@@ -328,7 +329,8 @@ section:last-child {
     width: 70%;              
     margin: auto;           
     padding: 30px;
-    text-wrap: balance;        
+    text-wrap: balance;
+    margin-bottom: 30px;      
 }
 
 .second-box p {
@@ -359,7 +361,13 @@ mark {
     width: 70%;              
     margin: auto;           
     padding: 40px;
-    border-radius: 7px; 
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#response p {
+    margin-top: 30px;
 }
 
 /* .close {
