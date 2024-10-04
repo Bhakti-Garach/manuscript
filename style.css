@@ -375,7 +375,7 @@ mark {
     right: -100%;
     width: 22%;
     height: 100%;
-    background-color: #feb832; ;
+    background-color: #feb832;
     /* box-shadow: -2px 0 5px rgba(165, 165, 165, 0.418); */
     overflow-y: auto;
     padding: 20px;
@@ -400,9 +400,9 @@ mark {
     font-size: 15px;
 }
 
-.definitions-content h3 {
+/* .definitions-content h3 {
     margin-top: 30px;
-}
+} */
 
 #close-definitions {
     cursor: pointer;
@@ -411,3 +411,10 @@ mark {
     text-align: right;
     text-decoration: underline;
 }
+
+.definitions-content details {
+    padding: 20px 0;
+    border-top: 1px dotted #333;
+    border-bottom: 1px dotted #333;
+}
+
